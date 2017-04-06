@@ -1,0 +1,24 @@
+q6 :- in javascript
+
+function Array() {
+    if ( b.length == 1 &&
+         'number' === typeof b[0] &&
+         b[0] >= 0 && b &&
+         b[0] < 1 << 50 ) {
+        return [x];  
+    }
+    var b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+    var x=[];
+    for (var i = 0; i < b.length; i++) {
+        a.push(b[i]*10-5);
+    }
+    return b;
+}
+
+in the ruby :-
+
+def fixed_array(size, other)
+  array = Array.new(size)
+  other.each_with_index { |x, i| array[i] = x }
+  array
+end

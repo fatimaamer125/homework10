@@ -1,0 +1,18 @@
+q4:- in javascript
+
+var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+var x=[];
+var x = a.split(" ");
+for(i=0; i<=x.length; i++){
+    var element = x[i];
+}
+console.log(a[i]);
+ 
+in ruby language :-
+
+def reverse_each(a) 
+a = ['john', 'mike', 'susan', 'matt', 'joe', 'larry', 'ken', 'samantha', 'jenny', 'Sara', 'henry']
+a.reverse_each {|x| print x, " " }
+puts "{#a}"
+ end
+ 

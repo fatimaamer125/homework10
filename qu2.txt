@@ -1,0 +1,23 @@
+q2:-
+javascript part:-
+
+function reverseForIn(obj, f) {
+  var arr = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+  for (var key in obj) {
+    arr.push(key);
+  }
+  for (var i=arr.length-1; i>=0; i--) {
+    f.call(obj, arr[i]);
+  }
+}
+
+reverseForIn(obj, function(key){ 
+console.log('KEY:', key, 'VALUE:', this[key]);
+});
+
+Ruby language Part:-
+
+array = [ 'john', 'mike', 'susan', 'matt', 'joe', 'larry', 'ken', 'samantha', 'jenny', 'Sara', 'henry']
+
+index = array.length
+array.length.times { index -= 1; puts array[index]}

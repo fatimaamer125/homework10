@@ -1,0 +1,8 @@
+in ruby language 
+
+begin
+  all the code
+rescue StandardError => e 
+  puts e.backtrace.reverse
+end
+but link with HTML only on Script .
