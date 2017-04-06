@@ -1,0 +1,20 @@
+q1:- the part javascript 
+ function ucthirdWord(word)
+{
+    var pieces = word.split(" ");
+    for ( var i = 0; i < pieces.length; i++ )
+    {
+        var j = pieces[i].charAt(0).toUpperCase();
+        pieces[i] = j + pieces[i].substr(3);
+    }
+    return pieces.join(" ");
+}
+
+ The part of ruby language:-
+ 
+["john", "mike", "SUSAN", "matt", "joe", "LARRY", "ken", "samantha", "jenny", "Sara", "henry"].collect do |word|
+  letters = word.split('')
+  letters.third.upcase!
+  letters.join
+end
+ 
